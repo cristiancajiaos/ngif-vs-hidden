@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HiddenComponent implements OnInit {
 
+  noShow = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleNoShow(): void {
+    this.noShow = !this.noShow;
   }
 
 }
