@@ -1,1 +1,17 @@
-<p>ngif works!</p>
+<h3>ngIf</h3>
+
+<button class="btn btn-success mb-3" (click)="toggleShow()">
+  Toggle Show
+</button>
+
+<p>show?: {{show}}</p>
+
+<div *ngIf="show">
+  <p>Pellentesque sagittis tristique erat ut egestas. Etiam ornare nisi eu libero interdum lacinia. Suspendisse lobortis
+    nunc vel tincidunt consectetur. Nulla non lacinia nisi. Proin ornare nisi sit amet lorem pulvinar volutpat.
+    Suspendisse potenti. Pellentesque nunc justo, pretium sit amet porta nec, convallis eu lectus. Mauris varius vitae
+    ante eu vestibulum. Mauris dignissim congue ipsum, egestas dapibus felis lobortis non. Duis aliquam pulvinar odio, a
+    tincidunt lectus accumsan eget. Nam aliquam turpis non lobortis imperdiet. Nunc suscipit ullamcorper felis quis
+    laoreet. Aliquam tristique, odio ac feugiat auctor, lorem lorem pulvinar purus, vitae accumsan diam ex eu metus.
+    Vivamus in ex mollis, sagittis lectus in, lobortis metus. Cras mollis arcu non maximus pulvinar.</p>
+</div>
